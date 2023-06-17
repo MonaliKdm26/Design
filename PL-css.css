@@ -1,0 +1,60 @@
+#main-div{
+    margin: 0;
+    padding: 0;
+    height: 606px;  
+    width: 100%;
+    background:rgba(0,0,0,0.6)  url(background-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    /* background-attachment: fixed; */
+}
+
+#title
+{
+   /* border: 2px solid red; */
+   width: 90%;
+   text-align: center;
+   margin-top: 180px;
+   margin-left: 50px;
+}
+#title h1{
+    color:#ffffff;
+   font-size: 40px;
+   font-weight: 700;
+   text-shadow: 8px 8px 8px black;
+   padding-bottom: 20px;
+}
+#title h1:hover{
+ color: aqua;
+}
+#p-tag{
+    color: #ffffff;
+}
+#btn{
+    border: 2px solid black;
+    padding: 10px 50px;
+    background-color: bisque;
+    font-weight:bolder;
+    border-radius: 20px;
+}
+#btn:hover{
+    color:rgb(212, 30, 91);
+    border-color: rgb(212, 30, 91);
+}
+.dropdown :hover{
+    background-color: #b77f7f;
+}
+.nav-item:hover{
+    background-color: #b77f7f;
+}
+
+.nav-item{
+    color: red;
+} 
+ 
+.dropdown-menu:hover{
+    background-color:cornflowerblue;
+}
+

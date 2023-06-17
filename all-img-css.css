@@ -1,0 +1,59 @@
+#all-img{
+    height: 1250px;
+    width: 100%;
+     background:rgba(0,0,0,0.4) url(/HomeLandscaping-for-all.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-blend-mode: darken;
+}
+#main-heading{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family:Georgia;
+    text-shadow: 2px 2px 2px green;
+}
+#main-heading:hover{
+    color: rgb(230, 224, 50);
+}
+#second-div{
+margin-left: 35px;
+margin-top: 20px;
+}
+.card{
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 13px;
+    padding: 5px;
+
+    box-shadow: 6px 6px 9px black;
+    border-radius: 20px;
+}
+.card-img-top{
+    float: right;
+    height: 161px;
+    width: 276px;
+    border-radius: 20px;
+    opacity: 0.6;
+    /* border-image-outset: 20px; */
+}
+.card-img-top:hover{
+    opacity: 1.0;
+}
+#scroll{
+    position: fixed;
+    z-index: 1;
+    position: fixed;
+    z-index: 1;
+    top: 88%;
+    bottom: 0;
+    right: 3%;
+    width: 5%;
+}
+#scroll img{
+    width: 100%;
+}
+#scroll img:hover{
+    background-color: rgb(28, 103, 124);
+}
